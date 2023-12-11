@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import FunctionComponent from './Component/funtioncomponent';
 
 function App() {
   return (
-    <div className="App">
-      <h1>My Search Engine</h1>
+    <div>
+      <FunctionComponent />
     </div>
   );
 }
