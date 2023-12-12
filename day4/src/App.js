@@ -5,6 +5,10 @@ import FunctionnoProps from './Components/FunctionnoProps';
 import StateClass from './Components/StateClass';
 import StateFunction from './Components/StateFunction';
 import StateHoldObject from './Components/StateHoldObject';
+import Parent from './Components/ParentChildcon';
+import DynamicRendering from './Components/DynamicRendering';
+import TwoWayBinding from './Components/TwoWayBinding';
+import DefaultProps from './Components/DefaultProps';
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
     <StateClass></StateClass>
     <StateFunction></StateFunction>
     <StateHoldObject></StateHoldObject>
+    <Parent></Parent>
+    <DynamicRendering></DynamicRendering>
+    <TwoWayBinding></TwoWayBinding>
+    <DefaultProps name="Sanjay"></DefaultProps>
     </div>
   );
 }
